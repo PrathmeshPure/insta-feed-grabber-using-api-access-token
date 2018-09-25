@@ -16,7 +16,7 @@
 		<!-- Nav -->
 			
 <?php
-$access_token = "3435087128.1677ed0.c06cda56bddc42df8702f406e1951de7";
+$access_token = "Your access token here";
 $photo_count = 100;
 $json_link = "https://api.instagram.com/v1/users/self/media/recent/?";
 $json_link .="access_token={$access_token}&count={$photo_count}";
